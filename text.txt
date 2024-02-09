@@ -133,3 +133,162 @@
       <div>CONTACT</div>
     </section>
     <!-- FOOTER -->
+
+CSS
+
+
+    class*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+
+
+:after {
+  content: "";
+}
+
+
+h1 {
+  margin: 80px 0 10px 0;
+  font-family: "Libre Franklin", sans-serif;
+  letter-spacing: 2px;
+}
+/* text-shadow: 1px 1px 0px #414535, 2px 2px 0px #414535, 3px 3px 0px #414535,
+    4px 4px 0px #414535; */
+
+.tagline {
+  font-size: 72px;
+  font-weight: 60px;
+}
+h2 {
+  font-size: 44px;
+}
+
+body {
+  padding: 10px 0;
+  background: #c19875;
+  color: black;
+  max-width: 640px;
+  font-family: "Port";
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+nav {
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+nav h3 {
+  text-align: center;
+  text-decoration: underline;
+  writing-mode: vertical-rl;
+  position: relative;
+  width: 70px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.4s ease-out;
+  margin-top: 60px;
+}
+section {
+  position: relative;
+  left: 290px;
+  top: 200px;
+  box-sizing: border-box;
+  
+}
+.container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+h1{
+  font-family: 'Port';
+  color: black;
+}
+h5{
+  font-family: 'Port';
+}
+/* PORTFOLIO  */
+/* .portfolio {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #222;
+} */
+.wrapper {
+  position: relative;
+  height: 300px;
+  width: 600px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+  transition: all 200ms ease-in-out;
+}
+.image-wrapper {
+  height: 300px;
+  width: 450px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 200ms ease-in-out;
+}
+
+img {
+  height: 300px;
+  width: 450px;
+  object-fit: cover;
+  object-position: top;
+  transition: all 200ms ease-in-out;
+}
+
+.book-design-image {
+  object-position: center;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 380px;
+  transition: all 200ms ease-in-out;
+  overflow: hidden;
+  
+}
+
+h1 {
+  position: relative;
+  bottom: 0;
+  height: 300px;
+  color: black;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Port";
+  transition: all 200ms ease-in-out;
+}
+
+.wrapper:hover img {
+  transform: scale(2);
+  /*object-position: bottom;*/
+}
+
+.wrapper:hover  h1{
+  bottom: 300px;
+  transform: scale(.4);
+}
+
+.wrapper:hover .image-wrapper {
+  width: 800px;
+}
