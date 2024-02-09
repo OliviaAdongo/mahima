@@ -1,0 +1,135 @@
+ <!-- HOME SECTION -->
+    <section id="home" class="home-container">
+      <div class="container" id="home-container">
+        <h2 class="tagline">DEVELOPER</h2>
+        <h5>My name is Olivia I am a developer and designer</h5>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-container">
+      <div class="container">
+        <h4>ABOUT</h4>
+        <div>image</div>
+        <div>
+          <h6>
+            I am a Software developer with a passion for crafting effecient and
+            robust code. I have a foundation in various programming languages.
+            My expertise lies in full-stack development, ensuring seamless
+            integration between front-end and back-end components. On the design
+            front, I transform concepts into visually stunning and intruitive
+            user experiences.
+          </h6>
+          <h6>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
+            quaerat voluptatum magnam eveniet velit delectus voluptatem et
+            veritatis nesciunt eos neque eligendi ipsum saepe eius blanditiis
+            explicabo at cumque quos. Nesciunt maiores commodi et consequuntur
+            veritatis magnam repellat officiis. Excepturi, eius. Quod eos minima
+            modi corporis nam ipsa aut nemo corrupti ratione aperiam!
+            Necessitatibus fugiat laborum, facilis accusantium porro deserunt
+            sunt quidem autem culpa itaque. Consequatur ipsum velit mollitia
+            doloribus minus, qui atque necessitatibus? Quia repellendus corrupti
+            sit fugit quos facilis minima, sed, beatae ipsa esse neque quis nemo
+            debitis hic voluptate mollitia eius delectus exercitationem autem.
+            Quod non tempore maxime sequi consequuntur sapiente dolorem, quos
+            delectus pariatur! Accusamus ad, officia vitae aperiam cupiditate
+            sapiente, quod dolorum doloribus at ullam incidunt sunt corporis,
+            commodi rerum enim quidem! Fugiat corporis ex nobis, totam nostrum
+            voluptatibus dicta ea, voluptatem repudiandae atque exercitationem,
+            minus voluptas eaque. Illum iure error, laudantium officiis
+            repellendus quibusdam minima in et accusantium ipsa officia
+            voluptatibus corporis impedit culpa nulla saepe dolor aperiam
+            explicabo laboriosam praesentium temporibus minus? Tempore ratione
+            voluptatum nisi sint ipsa delectus repellat consectetur ad odio
+            reiciendis excepturi sequi culpa asperiores eos officiis vero
+            deserunt iusto fugit, maiores dolores perspiciatis ex! Itaque,
+            quaerat. Est dolorem deleniti quae error cum eos repudiandae minus
+            iste, rerum eum veniam reiciendis nulla nobis vero. Quas voluptates
+            delectus obcaecati, ducimus tempore quis ea vel temporibus suscipit
+            officiis? Error, consequatur. Sapiente debitis quasi architecto unde
+            commodi aliquam praesentium quidem eaque autem, magnam minus
+            similique laboriosam totam consequuntur error ea. Aspernatur
+            expedita, possimus, provident magnam rerum excepturi quo earum fuga
+            tenetur libero quas, a voluptas amet voluptatibus quasi praesentium.
+            Adipisci, quasi? Blanditiis dicta, rerum totam quidem eveniet eos.
+            Ipsam voluptatem ullam suscipit hic consequatur nihil magni placeat
+            harum nemo a! Iure quisquam consequuntur minima libero magni? Ullam
+            neque, labore quasi maxime officia eligendi incidunt aperiam illo
+            eius dolores assumenda molestias tempora enim inventore expedita
+            repellendus quae similique. Quidem minima expedita dolores debitis
+            totam, officiis obcaecati alias voluptate reprehenderit unde dolorum
+            eveniet doloribus amet, explicabo optio mollitia facilis deserunt
+            porro illo, aliquid rerum labore voluptas numquam. Animi, nisi,
+            doloribus atque quisquam magni sunt quam ducimus, eveniet dolorum
+            blanditiis iure incidunt? Ullam in voluptatum nemo dicta commodi.
+            Voluptates, praesentium rem. Sequi maxime itaque vel in deserunt
+            ullam dignissimos laudantium nulla, eveniet, ratione hic aliquam,
+            iusto doloremque rerum! Voluptatibus voluptate minima consequatur
+            quae. Alias accusantium incidunt, eos ab reprehenderit, sed cumque
+            reiciendis veniam pariatur tempore neque, facere deleniti? Hic ipsam
+            aspernatur repudiandae eius vitae assumenda, cumque earum quas atque
+            veritatis nulla ducimus iusto necessitatibus minima delectus nostrum
+            impedit rem aliquam? Libero quam laboriosam a. Rerum aut, adipisci
+            rem obcaecati impedit consequuntur hic similique, optio iusto
+            voluptate quos magni, voluptatem veritatis! Exercitationem nesciunt
+            officiis, nostrum debitis libero necessitatibus earum tenetur sit
+            possimus quos, corrupti fugit sed fuga fugiat obcaecati ex aliquid!
+            Dolores, sequi? Molestiae quo nemo ipsa amet magnam vitae quidem
+            minus illo ratione rem! Pariatur ad expedita quia, exercitationem
+            deleniti mollitia facilis ipsam maiores suscipit, voluptatem rerum
+            itaque, et hic accusamus ipsa veniam eius. Nisi, aliquid.
+          </h6>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO SECTION -->
+    <!-- <section id="portfolio" class="portfolio">
+      <h2>PORTFOLIO</h2>
+      <div class="wrapper">
+        <div class="image-wrapper">
+          <img src="images/2.jpeg" />
+        </div>
+        <div class="header-wrapper">
+          <h1>Poster Art</h1>
+          <h1>See Project</h1>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="image-wrapper">
+          <img
+            class="book-design-image"
+            src="images/1.jpeg"
+            alt=" image here"
+          />
+        </div>
+        
+        <div class="header-wrapper">
+          <h1>Book Design</h1>
+          <h1>See Project</h1>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="image-wrapper">
+          <img
+            class="book-design-image"
+            src="images/3.jpeg
+            "
+            alt=" image here"
+          />
+        </div>
+        
+        <div class="header-wrapper">
+          <h1>Book Design</h1>
+          <h1>See Project</h1>
+        </div>
+      </div>
+
+    </section> -->
+    <!-- CONTACT -->
+    <section>
+      <div>CONTACT</div>
+    </section>
+    <!-- FOOTER -->
