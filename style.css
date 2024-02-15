@@ -1,24 +1,38 @@
 @font-face {
-  font-family: "Port";
-  src: url(/qassy-elegant-serif-font-typeface/Qassy.ttf);
+  font-family: "Heading";
+  src: url(/maitree/Maitree-Medium.ttf);
+}
+@font-face {
+  font-family: "Sub-heading";
+  src: url(/athiti/Athiti-Regular.ttf);
+}
+@font-face {
+  font-family: "Paragraph";
+  src: url(/noto-sans/NotoSans-Regular.ttf);
+}
+@font-face {
+  font-family: "General";
+  src: url(/antic-slab/AnticSlab-Regular.ttf);
 }
 
-@font-face {
-  font-family: "ashanty";
-  src: url(/ashanty-handwritten-elegance-meets-beauty-font/FONT/Ashanty.woff);
-}
-@font-face {
-  font-family: "anymore";
-  src: url(/anymore-fancy-minimalist-aesthetic-font/Anymore.woff2);
-}
 :root {
-  --general-font: "Port;";
+  /* FONTS */
+  --heading-font: "Heading";
+  --subheading-font: "Sub-heading";
+  --paragraph-font: "Paragraph";
+  --general-font: "General";
 }
 body {
   margin: 0;
   color: white;
   background-color: rgb(28, 26, 26);
+}
+.homepage {
   display: flex;
+  height: 100vh;
+}
+.landing {
+  padding: 70px 20px 20px 60px;
 }
 nav {
   display: block;
@@ -26,18 +40,70 @@ nav {
 nav li {
   list-style: none;
   writing-mode: vertical-lr;
-  margin-top: 20px;
-
+  margin-top: 10px;
   padding: 70px 20px 20px 60px;
   font-size: 25px;
+  text-decoration: underline;
 }
 nav a {
   text-decoration: none;
   color: white;
+  font-family: var(--general-font);
 }
-p{
-  letter-spacing: 2px;
-  line-height: 15px;
-  font-size: 20px;
-  font-family: "anymore";
+section {
+  height: 100vh;
+  position: absolute;
+}
+h1 {
+  font-family: var(--heading-font);
+  text-align: center;
+}
+p {
+  letter-spacing: 3px;
+  line-height: 25px;
+  font-size: 17px;
+  font-family: var(--paragraph-font);
+}
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin-left: 370px;
+  margin-top: 100px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+.content {
+  box-sizing: border-box;
+  /* border: 10px pink solid; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 70px 50px 70px;
+  height: 100vh;
+}
+.projects {
+  box-sizing: border-box;
+  /* border: 10px pink solid; */
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 70px 50px 70px;
+  height: 100vh;
+  display: flex;
+ flex-wrap: wrap;
+}
+
+img{
+  height: 500px;
+  width: 500px;
 }
