@@ -30,6 +30,8 @@ body {
 .homepage {
   display: flex;
   height: 100vh;
+  /* border: 10px solid green; */
+ 
 }
 .landing {
   padding: 70px 20px 20px 60px;
@@ -42,7 +44,7 @@ nav li {
   writing-mode: vertical-lr;
   margin-top: 10px;
   padding: 70px 20px 20px 60px;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: underline;
 }
 nav a {
@@ -58,11 +60,14 @@ h1 {
   font-family: var(--heading-font);
   text-align: center;
 }
+h4{
+  font-family: var(--general-font);
+}
 p {
-  letter-spacing: 3px;
-  line-height: 25px;
+  /* letter-spacing: 3px; */
+  /* line-height: 25px; */
   font-size: 17px;
-  font-family: var(--paragraph-font);
+  font-family: var(--general-font);
 }
 .container {
   max-width: 700px;
@@ -81,24 +86,24 @@ p {
   top: 0;
   bottom: 0;
   text-align: center;
+  
 }
 .content {
   box-sizing: border-box;
-  /* border: 10px pink solid; */
   align-items: center;
   justify-content: center;
   width: 100%;
   padding: 20px 70px 50px 70px;
-  height: 100vh;
+  height: auto;
 }
-.projects {
+.portfolio {
   box-sizing: border-box;
   /* border: 10px pink solid; */
   align-items: center;
   justify-content: space-around;
   width: 100%;
   padding: 20px 70px 50px 70px;
-  height: 100vh;
+  height: auto;
   display: flex;
  flex-wrap: wrap;
 }
@@ -107,4 +112,37 @@ img{
   height: 500px;
   width: 500px;
   margin-top: 20px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 600px){
+ .homepage{
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
+ } 
+nav li{
+  margin-top: 10px;
+  padding: 95px 0px 0px 15px;
+  font-size: 15px;
+}
+.container{
+  /* border: 10px solid pink; */
+  position: relative;
+  top: -20px;
+  left: -375px;
+}
+.about-page{
+  /* border: 10px solid pink; */
+  margin-bottom: 20px;
+  height:auto;
+}
+.content{
+  font-size: 15px;
+  padding: 30px 30px 50px 35px;
+  /* border: solid pink 10px; */
+  width: 570px;
+  height: auto;
+  
+}
 }
